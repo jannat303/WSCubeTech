@@ -400,9 +400,11 @@ a{
 .Curriculum {
     padding-top: 70px;
     text-align: center;
+    padding-bottom: 80px;
 }
 .Curriculum .container .nav.nav-tabs {
     --bs-nav-tabs-border-width: none;
+    margin-top: 25px;
 }
 .Curriculum .container .nav.nav-tabs .nav-item .nav-link.active{
     position: relative;
@@ -438,7 +440,9 @@ a{
     box-shadow: 0px 4px 20px -2px #002F5814;
     border-radius: 8px;
     text-align: left;
-    padding: 24px;
+    padding: 30px 0;
+    margin-bottom: 70px;
+    
 }
 .Curriculum .container .tab-content .curriculum_contents ul li{
     font-weight: 400;
