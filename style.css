@@ -401,98 +401,62 @@ a{
     padding-top: 70px;
     text-align: center;
 }
-
-.Curriculum .container .nav_menu ul {
-    text-align: left;
-    padding-left: 0;
+.Curriculum .container .nav.nav-tabs {
+    --bs-nav-tabs-border-width: none;
 }
-
-.Curriculum .container ul li {
-    list-style-type: none;
-    display: inline-block;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 100%;
-
-    padding: 20px 20px;
-    text-align: left;
+.Curriculum .container .nav.nav-tabs .nav-item .nav-link.active{
     position: relative;
 }
-
-.Curriculum .container .nav_menu ul li a {
-    text-decoration: none;
-    color: #43505B;
-}
-
-.Curriculum .container .nav_menu {
-    margin-top: 40px;
-}
-
-.Curriculum .container .nav_menu ul li::after {
+.Curriculum .container .nav.nav-tabs .nav-item .nav-link.active::after{
     content: '';
     position: absolute;
     height: 3px;
-    width: 0;
+    width: 100%;
+    background-color: #2699FB;
     transition: .4s;
     bottom: 0;
     left: 0;
 }
-
-.Curriculum .container .nav_menu ul li:hover::after {
-    width: 100%;
-    background-color: #2699FB;
-}
-
-.Curriculum .container .nav_menu ul li a:hover {
-    color: black;
+.Curriculum .container .nav.nav-tabs .nav-item .nav-link.active{
     font-weight: 600;
-}
-
-.Curriculum .container .nav_menu ul li:hover {
+    font-size: 18px;
     background-color: #F2F4F7;
-}
+    color: #0A2134;
 
-.Curriculum .container .curriculum_contents {
-    width: 1170px;
-    height: 284px;
-    border-radius: 8px;
-    border: 1px solid #F2F4F7;
+
+}
+.Curriculum .container .nav.nav-tabs .nav-item .nav-link{
+    font-weight: 600;
+    font-size: 18px;
+    color:  #43505B;
+    padding: 14px 25px;
+
+}
+.Curriculum .container .tab-content{
+    margin-top: 30px;
+    background-color: #FFFFFF;
     box-shadow: 0px 4px 20px -2px #002F5814;
-    padding-top: 35px;
-
-}
-
-.Curriculum .container .curriculum_contents ul {
+    border-radius: 8px;
     text-align: left;
-
+    padding: 24px;
 }
-
-.Curriculum .container .curriculum_contents ul li {
+.Curriculum .container .tab-content .curriculum_contents ul li{
     font-weight: 400;
     font-size: 22px;
     line-height: 100%;
-    padding: 0;
-    line-height: 50px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 30px;
+    line-height: 25px;
 
 }
-
-.Curriculum .container .curriculum_contents ul li i {
+.Curriculum .container .tab-content .curriculum_contents ul li i{
     color: #2699FB;
-    font-size: 28px;
     margin-right: 15px;
+    height: 28px;
+    width: 28px;
 }
-
-.curriculum_btn {
-    padding-top: 60px;
-    padding-bottom: 80px;
-}
-
-.curriculum_btn .button-group a {
-    padding: 16px 48px;
-    font-weight: 700;
-    font-size: 20px;
-}
-
 /* Curriculum section complete */
 
 /* marketing section start */
