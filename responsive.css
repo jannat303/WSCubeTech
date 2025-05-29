@@ -1,0 +1,41 @@
+@media only screen and (max-width:1400px){
+    
+}
+@media only screen and (max-width:1200px){
+    .banner .container h1{
+        font-size: 46px;
+    }
+    .banner .container .left-side p, .banner .container .left-side ul li {
+        font-size: 18px;
+        line-height: 35px;
+    }
+}
+@media only screen and (max-width:992px){
+    .banner .container h1{
+        font-size: 34px;
+        line-height: 45px;
+    }
+    .banner .container .right-side{
+        width: 345px;
+        padding: 25px;
+    }
+    .banner .container .right-side .button-group a{
+        padding: 10px 96px;
+    }
+    .banner .container .left-side p, .banner .container .left-side ul li {
+        font-size: 13px;
+        line-height: 22px;
+    }
+}@media only screen and (max-width:767px){
+    header .container .icon_col{
+        padding-bottom: 13px;
+    }
+}
+@media only screen and (max-width:576px){
+    header .container .icon_col, header .container .btn_col{
+        text-align: center;
+    }
+    header .container .btn_col{
+        padding-top: 25px;
+    }
+}
